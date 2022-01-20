@@ -18,7 +18,6 @@ class ReportResource extends JsonResource
         return [
             'id' => $this->id,
             'title' => $this->title,
-            'report_link'=>$this->report_link,
             'created_at'=> date_format($date, 'd/m/Y')
         ];
     }
